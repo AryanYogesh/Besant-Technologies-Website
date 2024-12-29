@@ -1,0 +1,31 @@
+
+.notice-board {
+    /* margin-top: ; */
+    background-color: #e5dfdf;
+    color: rgb(22, 21, 21);
+    font-size: 1.2rem;
+    padding: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    /* height: 25px; */
+  }
+  
+  .notice-board p {
+    /* position: absolute; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+    animation: scroll-left 10s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

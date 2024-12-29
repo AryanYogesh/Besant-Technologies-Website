@@ -1,0 +1,40 @@
+.testimonials-section{
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.testimonials-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.testimonials-section p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.video-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.video-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.video-info h5{
+    color: #343a40;
+    font-size: 1.25rem;
+}
+
+.video-info p{
+    color: #6c757d;
+    font-size: 1rem;
+}
+

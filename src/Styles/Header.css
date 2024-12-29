@@ -1,0 +1,66 @@
+.header-logo{
+    width: 70px;
+    height: auto;
+}
+
+.header-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107; 
+}
+
+header .btn{
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+header .btn:hover{
+    background-color: #0056b3;
+    color: white;
+}
+
+header .btn-outline-light {
+    border: 2px solid white;
+    color: white;
+  }
+  
+  header .btn-light {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  header .btn-light:hover {
+    background-color: #007bff;
+    color: white;
+  }
+
+
+@media (max-width: 768px) {
+    .nav-left {
+        margin-left: 0; 
+    }
+
+    .auth-buttons{
+        position: relative;
+    }
+}

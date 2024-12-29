@@ -1,0 +1,11 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.8;
+}
